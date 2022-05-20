@@ -1,0 +1,67 @@
+/* settings */
+.gridsettings{
+  display: grid;
+  grid-template-areas:
+  'menu menu'
+  'main main';
+  grid-auto-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.overskriftsettings{
+text-align: left;
+padding: 40px;
+font-size: 35px;
+}
+
+.membershipvenstre{
+  display: grid;
+  grid-column:1/2;
+  grid-row: 1/2;
+}
+
+.membershipvenstre h1{
+font-size: 30px;
+}
+
+.membershiphøjre{
+  display: grid;
+  grid-column:2/3;
+  grid-row: 1/2;
+}
+
+.membershiphøjre p{
+  color: var(--lyselilla);
+}
+
+.billingvenstre{
+  display: grid;
+  grid-column:1/2;
+  grid-row: 2/2;
+}
+
+.billingvenstre h1{
+  font-size: 30px;
+}
+
+
+
+.billinghøjre{
+  display: grid;
+  grid-column:2/2;
+  grid-row: 2/3;
+}
+.billinghøjre p{
+  color: var(--lyselilla);
+=======
+
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background:#05454E;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+}
