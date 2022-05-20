@@ -18,16 +18,7 @@ body {
 
 
 
-section{
-  height: auto;
-  width: auto;
-  text-align: center;
-}
 
-h1, h3 {
-  color: var(--egghvid);
-
-}
 
 header {
 width: auto;
