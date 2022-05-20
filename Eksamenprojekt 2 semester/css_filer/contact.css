@@ -38,8 +38,8 @@ img{
 }
 
 .navbar {
-  max-height: auto;
-  min-height: auto;
+  max-height: 100px;
+  min-height: 50px;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
