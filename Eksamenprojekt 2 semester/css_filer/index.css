@@ -43,12 +43,6 @@ img{
   height: auto;
   max-width: 300px;
 }
-footer {
-  background-color: var(--lilla);
-  font-family:"Proxima Nova Alt", Sans-serif;
-  color: var(--egghvid);
-  text-align: center;
-}
 
 .navbar {
   max-height: auto;
@@ -67,7 +61,6 @@ footer {
 }
 
 
-
 .nav-link {
   transition: 0.7s ease;
 }
@@ -81,78 +74,17 @@ footer {
   color: #89A7AC;
 }
 
-<<<<<<< HEAD
-/* settings */
-.gridsettings{
-  display: grid;
-  grid-template-areas:
-  'menu menu'
-  'main main';
-  grid-auto-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-
-}
-
-.overskriftsettings{
-text-align: left;
-padding: 40px;
-font-size: 35px;
-}
-
-.membershipvenstre{
-  display: grid;
-  grid-column:1/2;
-  grid-row: 1/2;
-}
-
-.membershipvenstre h1{
-font-size: 30px;
-}
-
-.membershiphøjre{
-  display: grid;
-  grid-column:2/3;
-  grid-row: 1/2;
-}
-
-.membershiphøjre p{
-  color: var(--lyselilla);
-}
-
-.billingvenstre{
-  display: grid;
-  grid-column:1/2;
-  grid-row: 2/2;
-}
-
-.billingvenstre h1{
-  font-size: 30px;
-}
 
 
 
-.billinghøjre{
-  display: grid;
-  grid-column:2/2;
-  grid-row: 2/3;
-}
-.billinghøjre p{
-  color: var(--lyselilla);
-=======
 
-
-.header {
-  padding: 10px;
-  text-align: center;
-  background:#05454E;
-  color: white;
-  font-size: 30px;
-  width: 100%;
-}
 
 
 .faq-heading{
     padding: 20px 300px;
+    color: var(--egghvid);
+    font-size: 40px;
+
 
 }
 .faq-container{
@@ -168,7 +100,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #05454E;
+    color: var(--egghvid);
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
