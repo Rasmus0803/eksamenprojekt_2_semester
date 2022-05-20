@@ -1,0 +1,90 @@
+:root {
+  --gul:#F6E36D;
+  --lilla: #36244D;
+  --blå: #05454E;
+  --grå-ish: #e4f1f0;
+  --egghvid:#FCFAF0;
+}
+
+
+/* header med menu */
+
+
+
+body {
+    background-color: var(--lilla);
+    font-family:"Proxima Nova Alt", Sans-serif;
+}
+
+
+
+section{
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+h1, h3 {
+  color: var(--egghvid);
+
+}
+
+header {
+width: auto;
+height: auto;
+}
+
+li{
+  list-style: none;
+  float: right;
+}
+ul{
+  list-style-type: none;
+  margin-bottom: 150px;
+}
+a{
+  color: var(--egghvid);
+  text-decoration: none;
+}
+
+img{
+  height: auto;
+  max-width: 300px;
+}
+footer {
+  background-color: var(--lilla);
+  font-family:"Proxima Nova Alt", Sans-serif;
+  color: var(--egghvid);
+  text-align: center;
+}
+
+.navbar {
+  max-height: auto;
+  min-height: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.menu {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 467px;
+
+}
+
+
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.menu li a  {
+  color: var(--egghvid);
+  padding: 20px;
+}
+
+.menuItem:hover {
+  color: #89A7AC;
+}
