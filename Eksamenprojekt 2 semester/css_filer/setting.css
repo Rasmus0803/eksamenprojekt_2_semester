@@ -45,7 +45,7 @@ footer {
 }
 
 .navbar {
-  max-height: 100px;
+  max-height: 150px;
   min-height: 50px;
   justify-content: space-between;
   display: flex;
