@@ -45,8 +45,8 @@ footer {
 }
 
 .navbar {
-  max-height: auto;
-  min-height: auto;
+  max-height: 100px;
+  min-height: 50px;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -85,7 +85,7 @@ footer {
 
 .overskriftsettings{
 text-align: left;
-padding: 56px;
+margin-left: 7%;
 font-size: 35px;
 color:var(--egghvid);
 }
@@ -94,7 +94,7 @@ color:var(--egghvid);
   display: grid;
   grid-column:1/2;
   grid-row: 1/2;
-  margin-left: 7%;
+  margin-left: 15%;
   color:var(--egghvid);
 }
 
@@ -113,14 +113,14 @@ color:var(--egghvid);
 .membershiphøjre p{
   color: var(--lyselilla);
   text-align: right;
-  margin-right: 60px;
+  margin-right: 120px;
 }
 
 .billingvenstre{
   display: grid;
   grid-column:1/2;
   grid-row: 2/2;
-  margin-left: 7%;
+  margin-left: 15%;
   color:var(--egghvid);
 }
 
@@ -128,6 +128,9 @@ color:var(--egghvid);
   font-size: 30px;
 }
 
+.billingvenstre h2{
+  align-self: end;
+}
 .billinghøjre{
   display: grid;
   grid-column:2/2;
@@ -136,5 +139,9 @@ color:var(--egghvid);
 .billinghøjre p{
   color: var(--lyselilla);
   text-align: right;
-  margin-right: 60px;
+  margin-right: 120px;
+}
+
+p{
+  font-size: 18px;
 }
