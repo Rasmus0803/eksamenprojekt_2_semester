@@ -72,6 +72,7 @@ img{
   margin-left: 7%;
   font-size: 35px;
   color:var(--egghvid);
+  font-weight: bold;
   }
 .kontaktsiden{
   height: 100vh;
