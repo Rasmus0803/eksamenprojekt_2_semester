@@ -83,6 +83,9 @@ img{
 
 .faq-heading{
     padding: 20px 300px;
+    color: var(--egghvid);
+    font-size: 40px;
+
 
 }
 .faq-container{
@@ -98,7 +101,7 @@ flex-direction: column;
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
     /* background-color: #eee; */
-    color: #05454E;
+    color: var(--egghvid);
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
