@@ -185,7 +185,7 @@ textarea {
   margin-left: 5%
 }
 
-.iconscontact{
+.iconscontact {
   display: grid;
   grid-column: 2/3;
   grid-row: 2/3;
@@ -193,4 +193,11 @@ textarea {
   font-family: Helvetica;
 }
 
+}
+.instagram {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  color: #FCFAF0;
+  font-family: Helvetica;
 }
