@@ -85,34 +85,43 @@ footer {
 
 .overskriftsettings{
 text-align: left;
-padding: 40px;
+padding: 56px;
 font-size: 35px;
+color:var(--egghvid);
 }
 
 .membershipvenstre{
   display: grid;
   grid-column:1/2;
   grid-row: 1/2;
+  margin-left: 7%;
+  color:var(--egghvid);
 }
 
 .membershipvenstre h1{
 font-size: 30px;
+color:var(--egghvid);
 }
 
 .membershiphøjre{
   display: grid;
   grid-column:2/3;
   grid-row: 1/2;
+
 }
 
 .membershiphøjre p{
   color: var(--lyselilla);
+  text-align: right;
+  margin-right: 60px;
 }
 
 .billingvenstre{
   display: grid;
   grid-column:1/2;
   grid-row: 2/2;
+  margin-left: 7%;
+  color:var(--egghvid);
 }
 
 .billingvenstre h1{
@@ -126,3 +135,6 @@ font-size: 30px;
 }
 .billinghøjre p{
   color: var(--lyselilla);
+  text-align: right;
+  margin-right: 60px;
+}
