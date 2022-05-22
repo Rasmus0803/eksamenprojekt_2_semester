@@ -65,32 +65,37 @@ button {
 }
 
 .pcontainer {
-  padding: 14px 291px;
+  padding: 14px 100px;
+  width: 50%;
 }
 
 .pbtn{
-  padding: 14px 150px;
+  padding: 14px 200px;
+  width: 50%;
 
 }
 
-
+.slogan{
+  padding-left: 1000px;
+  color: var(--egghvid);
+}
 .welcometext{
-    padding: 20px 300px;
+    padding: 20px 108px;
     color: var(--egghvid);
     font-size: 50px;
 }
 .introtext{
-    padding: 0px 300px;
+    padding: 0px 108px;
     color: var(--egghvid);
     font-size: 30px;
 }
 .sometext{
   color: var(--egghvid);
   margin-top: 20px;
-  padding: 0px 300px;
+  padding: 0px 108px;
 }
 .picons{
   color: var(--egghvid);
   margin-top: 20px;
-  padding: 0px 300px;
+  padding: 0px 108px;
 }
