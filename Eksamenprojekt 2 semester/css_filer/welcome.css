@@ -64,9 +64,35 @@ button {
   opacity: 0.9;
 }
 
-.pcontainer {
-  padding: 14px 100px;
-  width: 50%;
+
+.welcomesiden{
+  height: 100vh;
+  display:grid;
+  grid-template-areas:
+      'menu menu'
+      'main main';
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.højreop{
+
+  grid-row:1/2;
+  grid-column: 2/3;
+}
+
+.venstreop{
+  margin-left: 15%;
+  color:var(--egghvid);
+}
+
+.venstrenede{
+  display: grid;
+  grid-row: 2/2;
+  grid-column: 1/2;
+  margin-left: 15%;
+  color:var(--egghvid);
+  margin-bottom: 10px;
 }
 
 .pbtn{
@@ -76,33 +102,32 @@ button {
 }
 
 .slogan{
-  padding-left: 1000px;
   color: var(--egghvid);
-  font-size: 50px;
+  font-size: auto;
 }
 .slogan2{
-  padding-left: 1000px;
+
   color: var(--egghvid);
-  margin-top: -20px;
 }
 .welcometext{
-    margin-left: 110px;
-    margin-top: -155px;
-    color: var(--egghvid);
-    font-size: 50px;
+  text-align: left;
+  margin-left: 7%;
+  font-size: 35px;
+  color:var(--egghvid);
+  font-weight: bold;
 }
 .introtext{
-    padding: 0px 108px;
+
     color: var(--egghvid);
-    font-size: 30px;
+    font-size: auto;
 }
 .sometext{
   color: var(--egghvid);
-  margin-top: 20px;
-  padding: 0px 108px;
+
+
 }
 .picons{
   color: var(--egghvid);
-  margin-top: 20px;
-  padding: 0px 108px;
+
+
 }
