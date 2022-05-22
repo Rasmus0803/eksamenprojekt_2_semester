@@ -8,22 +8,18 @@
 }
 
 
-/* header med menu */
+/* header og menu start*/
 
 
 
 body {
-    background-color: var(--lilla);
-    font-family:"Proxima Nova Alt", Sans-serif;
+  background-color: var(--lilla);
+  font-family:"Proxima Nova Alt", Sans-serif;
 }
 
-
-
-
-
 header {
-width: auto;
-height: auto;
+  width: auto;
+  height: auto;
 }
 
 li{
@@ -34,6 +30,7 @@ ul{
   list-style-type: none;
   margin-bottom: 150px;
 }
+
 a{
   color: var(--egghvid);
   text-decoration: none;
@@ -44,23 +41,19 @@ img{
   max-width: 300px;
 }
 
-
 .navbar {
   max-height: 150px;
   min-height: 50px;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-
 }
 
 .menu {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 467px;
-
 }
-
 
 .nav-link {
   transition: 0.7s ease;
@@ -75,10 +68,12 @@ img{
   color: #89A7AC;
 }
 
+/* header og menu slut*/
 
 
 
 
+/* faq start*/
 
 
 .faq-heading{
@@ -140,5 +135,7 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 
->>>>>>> 34b925e8a088e0b5889cc49c79f432af3badbaf6
 }
+
+
+/* faq slut*/
