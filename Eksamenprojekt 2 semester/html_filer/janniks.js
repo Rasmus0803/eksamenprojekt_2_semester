@@ -14,4 +14,4 @@ if (element < li.length -1){
   count = 0;
   list.style.transform = `translateY(-${(count)}em)`;
 }
-},3000);
+},2000);
