@@ -53,14 +53,25 @@ input[type=text], input[type=password] {
   border: none;
   background: var(--egghvid);
 }
-
+button {
+  background-color: var(--lyselilla);
+  color: white;
+  padding: 14px 46px;
+  margin: 15px -68px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
 
 .pcontainer {
   padding: 14px 291px;
 }
 
+.pbtn{
+  padding: 14px 150px;
 
-
+}
 
 
 .welcometext{
