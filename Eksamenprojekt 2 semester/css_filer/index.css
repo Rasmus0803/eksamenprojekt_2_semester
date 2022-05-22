@@ -8,7 +8,7 @@
 }
 
 
-/* header med menu */
+/* header start*/
 
 
 
@@ -18,13 +18,14 @@ body {
 }
 
 
-
-
-
 header {
 width: auto;
 height: auto;
 }
+
+/* header slut*/
+
+/* menu start*/
 
 li{
   list-style: none;
@@ -75,10 +76,12 @@ img{
   color: #89A7AC;
 }
 
+/* menu slut*/
 
 
 
 
+/* faq start*/
 
 
 .faq-heading{
@@ -140,5 +143,7 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 
->>>>>>> 34b925e8a088e0b5889cc49c79f432af3badbaf6
 }
+
+
+/* faq slut*/
