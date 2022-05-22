@@ -22,16 +22,16 @@ header {
   height: auto;
 }
 
-li{
+.menu li{
   list-style: none;
   float: right;
 }
-ul{
+.menu li ul{
   list-style-type: none;
   margin-bottom: 150px;
 }
 
-a{
+.menu li a{
   color: var(--egghvid);
   text-decoration: none;
 }
@@ -70,7 +70,81 @@ img{
 
 /* header og menu slut*/
 
+/* rollerslider start*/
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "left right"
+    "bottomleft bottomright";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.left {
+  display: grid;
+  grid-column: 1/2;
+  margin: 4em;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.right {
+  display: grid;
+  grid-column: 2/3;
+  margin: 4em;
+  align-content: center;
+  justify-content: center;
+}
+
+.aligner {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  color: #135975;
+}
+
+.center div{
+  display: inline-block;
+}
+
+.overskriften1 h1{
+  color: #DCBCFD;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content {
+  height: 60px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
+  top: 18px;
+  color: #F29E99;
+  text-align: left;
+  font-weight: 200;
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list ul li {
+  font-size: 2em;
+  padding: 0.4em 0em;
+}
+
+.list {
+  transition: transform 0.9s ease;
+}
+
+
+/* rollerslider slut*/
 
 
 /* faq start*/
