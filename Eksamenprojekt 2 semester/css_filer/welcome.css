@@ -27,8 +27,8 @@ img{
   height: auto;
   max-width: 300px;
 }
-
-
-welcome h1 h2 {
-  color: var(--lyselilla);
+.welcometext{
+    padding: 20px 300px;
+    color: var(--egghvid);
+    font-size: 40px;
 }
