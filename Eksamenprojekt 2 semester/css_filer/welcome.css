@@ -17,18 +17,44 @@ body {
     font-family:"Proxima Nova Alt", Sans-serif;
 }
 
+
+
+
+
 header {
 width: auto;
 height: auto;
 }
 
+li{
+  list-style: none;
+  float: right;
+}
+ul{
+  list-style-type: none;
+  margin-bottom: 150px;
+}
+a{
+  color: var(--egghvid);
+  text-decoration: none;
+}
 
 img{
   height: auto;
   max-width: 300px;
 }
-.welcometext{
+
+
+
+
+
+
+
+
+
+
+.wtext{
     padding: 20px 300px;
-    color: var(--egghvid);
+    color: var(--lyselilla);
     font-size: 40px;
 }
