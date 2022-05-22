@@ -74,3 +74,11 @@ img{
 .menuItem:hover {
   color: #89A7AC;
 }
+
+.overskriftmysubscribtions{
+  text-align: left;
+  margin-left: 7%;
+  font-size: 35px;
+  color:var(--egghvid);
+  font-weight: bold;
+  }
