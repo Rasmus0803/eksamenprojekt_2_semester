@@ -121,11 +121,16 @@ input[type=text] {
   grid-column: 2/3;
   width: 900px;
   height: 40px;
-  background-color: #FCFAF0;
+  background-color: #DCBCFD;
   border-radius: 25px;
   border: none;
   margin-left: auto;
   margin-right: 0;
+}
+
+.box1 p {
+  margin-left: 20px;
+  color: var(--grå-ish);
 }
 
 .box2 {
