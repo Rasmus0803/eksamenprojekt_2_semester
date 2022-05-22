@@ -44,6 +44,7 @@ img{
   max-width: 300px;
 }
 
+
 .navbar {
   max-height: 150px;
   min-height: 50px;
@@ -95,6 +96,7 @@ flex-direction: column;
 .hr-line{
   width: 60%;
   margin: auto;
+  display: none;
 
 }
 /* Style the buttons that are used to open and close the faq-page body */
