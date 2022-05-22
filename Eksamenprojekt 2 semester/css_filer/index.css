@@ -8,7 +8,7 @@
 }
 
 
-/* header start*/
+/* header og menu start*/
 
 
 
@@ -21,10 +21,6 @@ header {
   width: auto;
   height: auto;
 }
-
-/* header slut*/
-
-/* menu start*/
 
 li{
   list-style: none;
@@ -72,7 +68,7 @@ img{
   color: #89A7AC;
 }
 
-/* menu slut*/
+/* header og menu slut*/
 
 
 
