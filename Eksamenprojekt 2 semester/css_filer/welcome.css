@@ -78,9 +78,16 @@ button {
 .slogan{
   padding-left: 1000px;
   color: var(--egghvid);
+  font-size: 50px;
+}
+.slogan2{
+  padding-left: 1000px;
+  color: var(--egghvid);
+  margin-top: -20px;
 }
 .welcometext{
-    padding: 20px 108px;
+    margin-left: 110px;
+    margin-top: -155px;
     color: var(--egghvid);
     font-size: 50px;
 }
