@@ -44,6 +44,10 @@ img{
   max-width: 300px;
 }
 
+.noaccount{
+  font-size: 20px;
+  margin-top: 50px;
+}
 
 input[type=text], input[type=password] {
   width: 50%;
@@ -76,9 +80,23 @@ button {
 }
 
 .højreop{
-
+  text-align: right;
   grid-row:1/2;
   grid-column: 2/3;
+  margin-left: 30%;
+  font-size: 25px;
+  text-align: left;
+  color: var(--egghvid);
+}
+
+.højrenede{
+  display: grid;
+  grid-row: 2/2;
+  grid-column: 2/2;
+  margin-left: 30%;
+  font-size: 20px;
+  text-align: left;
+  color: var(--egghvid);
 }
 
 .venstreop{
@@ -90,13 +108,13 @@ button {
   display: grid;
   grid-row: 2/2;
   grid-column: 1/2;
-  margin-left: 15%;
+  margin-left: 14%;
   color:var(--egghvid);
-  margin-bottom: 10px;
+  margin-top: -77px;
 }
 
 .pbtn{
-  padding: 14px 200px;
+  padding: 14px 160px;
   width: 50%;
 
 }
@@ -104,10 +122,12 @@ button {
 .slogan{
   color: var(--egghvid);
   font-size: auto;
+  margin-bottom: -25px;
 }
 .slogan2{
   color: var(--egghvid);
   font-size: auto;
+  margin-bottom: 200px;
 }
 .welcometext{
   text-align: left;
