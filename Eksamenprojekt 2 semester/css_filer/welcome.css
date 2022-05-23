@@ -116,8 +116,12 @@ button {
 .pbtn{
   padding: 14px 160px;
   width: 50%;
-
 }
+
+.pbtnsignup{
+  width: 50%;
+}
+
 
 .slogan{
   color: var(--egghvid);
