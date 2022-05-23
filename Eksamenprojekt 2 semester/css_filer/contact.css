@@ -212,3 +212,25 @@ textarea {
   font-family: Helvetica;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .kontaktsiden {
+    display: grid;
+    grid-template-areas:
+      'menu'
+      'main';
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .form {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+
+  .kontaktinfo {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    color: #FCFAF0;
+  }
+
+}
