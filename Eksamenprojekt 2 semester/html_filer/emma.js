@@ -16,10 +16,10 @@ let opretArray = new Array("Subject", "Subscriptions", "Log In", "Support", "Oth
 
     function myFunction(e) {
       let txt;
-      if (confirm("Send besked")) {
-        txt = "Din besked er nu sendt!";
+      if (confirm("Send Messeage")) {
+        txt = "Your message has been sent!";
       } else {
-        txt = "Besked annulleret";
+        txt = "Messeage cancelled";
       }
       document.getElementById("demo").innerHTML = txt;
       e.preventDefault()
