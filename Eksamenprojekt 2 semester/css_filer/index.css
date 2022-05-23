@@ -18,7 +18,9 @@ body {
   height: 100vh;
 }
 
-
+*{
+  margin: 0;
+}
 
 header {
   width: auto;
@@ -38,6 +40,7 @@ header {
 .menu li a{
   color: var(--egghvid);
   text-decoration: none;
+  padding-top: 10px;
 }
 
 img{
@@ -57,6 +60,7 @@ img{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 467px;
+  padding-top: 10px;
 }
 
 .nav-link {

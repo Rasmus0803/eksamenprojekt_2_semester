@@ -14,6 +14,11 @@ body {
     font-family:"Proxima Nova Alt", Sans-serif;
 }
 
+*{
+  margin: 0px;
+}
+
+
 header {
 width: auto;
 height: auto;
@@ -50,6 +55,7 @@ img{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 467px;
+  padding-top: 10px;
 
 }
 

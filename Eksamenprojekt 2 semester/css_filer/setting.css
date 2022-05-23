@@ -15,6 +15,9 @@ body {
     font-family:"Proxima Nova Alt", Sans-serif;
 }
 
+*{
+  margin: 0;
+}
 
 header {
 width: auto;
@@ -58,6 +61,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 467px;
+  padding-top: 10px;
 
 }
 

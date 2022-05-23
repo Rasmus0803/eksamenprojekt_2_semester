@@ -17,7 +17,9 @@ body {
     font-family:"Proxima Nova Alt", Sans-serif;
 }
 
-
+*{
+  margin: 0;
+}
 
 
 
@@ -37,6 +39,7 @@ height: auto;
 .menu li a{
   color: var(--egghvid);
   text-decoration: none;
+  padding-top: 10px;
 }
 
 img{
@@ -52,13 +55,14 @@ img{
   display: flex;
   flex-direction: row;
 
+
 }
 
 .menu {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 467px;
-
+  padding-top: 10px;
 }
 
 
