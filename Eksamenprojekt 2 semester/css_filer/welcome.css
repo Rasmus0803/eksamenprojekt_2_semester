@@ -19,7 +19,9 @@ body {
 
 
 
-
+*{
+  margin: 0;
+}
 
 header {
 width: auto;
@@ -46,7 +48,7 @@ img{
 
 .noaccount{
   font-size: 20px;
-  margin-top: 50px;
+  margin-top: 123px;
 }
 
 input[type=text], input[type=password] {
@@ -91,7 +93,7 @@ button {
 
 .højrenede{
   display: grid;
-  grid-row: 2/2;
+  grid-row: 1/2;
   grid-column: 2/2;
   margin-left: 30%;
   font-size: 20px;
@@ -119,14 +121,16 @@ button {
 }
 
 .pbtnsignup{
-  width: 50%;
+  padding: 32px 150px;
+  width: 72%;
+  margin-left: -75px;
 }
 
 
 .slogan{
   color: var(--egghvid);
   font-size: auto;
-  margin-bottom: -25px;
+  margin-bottom: -10px;
 }
 .slogan2{
   color: var(--egghvid);
