@@ -117,6 +117,13 @@ input[type=text] {
   margin-right: 0;
 }
 
+.addnewbutton h3 {
+  text-align: center;
+
+
+
+}
+
 .box1 {
   margin-top: 4em;
   grid-row: 1/2;
@@ -130,8 +137,6 @@ input[type=text] {
   margin-right: 0;
   display: flex;
   flex-direction: row;
-
-
 }
 
 .box1 p {
@@ -139,8 +144,7 @@ input[type=text] {
   margin-right: 50px;
   color: var(--grå-ish);
   display: flex;
-
-
+  align-self: center;
 
 }
 
@@ -155,6 +159,17 @@ input[type=text] {
   border: none;
   margin-left: auto;
   margin-right: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.box2 p {
+  margin-left: 86px;
+  margin-right: 50px;
+  color: var(--lilla);
+  display: flex;
+  align-self: center;
+
 }
 
 .box3 {
@@ -168,6 +183,17 @@ input[type=text] {
   border: none;
   margin-left: auto;
   margin-right: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.box3 p {
+  margin-left: 86px;
+  margin-right: 50px;
+  color: var(--lilla);
+  display: flex;
+  align-self: center;
+
 }
 
 .box4 {
@@ -181,4 +207,15 @@ input[type=text] {
   border: none;
   margin-left: auto;
   margin-right: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.box4 p {
+  margin-left: 86px;
+  margin-right: 50px;
+  color: var(--lilla);
+  display: flex;
+  align-self: center;
+
 }
