@@ -107,6 +107,7 @@ font-weight: bold;
 .membershipvenstre h1{
 font-size: 30px;
 color:var(--egghvid);
+margin-top: 2em;
 }
 
 .membershiphøjre{
@@ -132,6 +133,7 @@ color:var(--egghvid);
 
 .billingvenstre h1{
   font-size: 30px;
+  margin-top: 2em;
 }
 
 .billingvenstre h2{
