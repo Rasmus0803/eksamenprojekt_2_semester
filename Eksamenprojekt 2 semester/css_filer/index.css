@@ -129,6 +129,9 @@ button {
   text-align: left;
   color: var(--egghvid);
 }
+.policytext{
+  margin-right: 30px;
+}
 
 .venstreop{
   margin-left: 15%;
