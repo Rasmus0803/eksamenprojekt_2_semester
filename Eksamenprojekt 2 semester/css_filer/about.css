@@ -1,0 +1,274 @@
+:root {
+  --gul:#F6E36D;
+  --lilla: #36244D;
+  --blå: #05454E;
+  --grå-ish: #e4f1f0;
+  --egghvid:#FCFAF0;
+  --lyselilla:#DCBCFD;
+}
+
+
+/* header og menu start*/
+
+
+
+body {
+  background-color: var(--lilla);
+  font-family:"Proxima Nova Alt", Sans-serif;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: auto;
+}
+
+.menu li{
+  list-style: none;
+  float: right;
+
+}
+.menu li ul{
+  list-style-type: none;
+  margin-bottom: 150px;
+}
+
+.menu li a{
+  color: var(--egghvid);
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+img{
+  height: auto;
+  max-width: 300px;
+}
+
+.navbar {
+  max-height: 150px;
+  min-height: 50px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 467px;
+  padding-top: 10px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.menu li a  {
+  color: var(--egghvid);
+  padding: 20px;
+}
+
+.menuItem:hover {
+  color: #89A7AC;
+}
+
+/* header og menu slut*/
+
+/* rollerslider start*/
+
+
+
+
+
+
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  color: #F29E99;
+}
+
+.center div{
+  display: inline-block;
+}
+
+.overskriften1 h1{
+  color: #DCBCFD;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content {
+  height: 60px;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  text-align: left;
+  font-weight: 200;
+}
+
+.list ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 0.2em;
+}
+
+.list ul li {
+  font-size: 2em;
+  padding: 0.4em 0em;
+  margin-right: 0.6em;
+}
+
+
+/* rollerslider slut*/
+
+
+.infotext {
+  color: #F29E99;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  text-align: revert;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* faq start*/
+
+
+.faq-heading{
+    padding: 20px 300px;
+    color: var(--egghvid);
+    font-size: 40px;
+}
+
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  display: none;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: var(--egghvid);
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.faq-page:hover {
+    background-color: var(--lyselilla);
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: var(--lilla);
+    display: none;
+    overflow: hidden;
+      color: var(--lyselilla);
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+
+}
+
+/* faq slut*/
+
+.calendar{
+  position: relative;
+  width: 260px;
+  float: right;
+  bottom: 150px;
+  transform:scale(0.65,0.65);
+
+
+}
+
+.calendar:before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.calendar .calendar-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-bottom: 6px solid #DCBCFD;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+}
+
+.calendar .calendar-body .month-name{
+  color: #fff;
+  background: #DCBCFD;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 400;
+  padding: 5px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.calendar .calendar-body .day-name{
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.calendar .calendar-body .date-number{
+  color: #fff;
+  font-size: 6em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.calendar .calendar-body .year{
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}

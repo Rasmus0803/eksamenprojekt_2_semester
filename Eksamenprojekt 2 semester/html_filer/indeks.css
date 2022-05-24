@@ -1,0 +1,985 @@
+:root {
+  --gul:#F6E36D;
+  --lilla: #F9BABB;
+  --blå: #05454E;
+  --grå-ish: #e4f1f0;
+  --hvid:#ffffff;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header med menu */
+header {
+  position: fixed;
+  background-color: var(--grå-ish);
+  width: 100vw;
+  z-index: 10;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: var(--blå);
+  text-decoration: none;
+}
+
+.previous {
+  color: var(--blå);
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+height: 50px;
+width: 120px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.menu li a {
+  color: var(--blå);
+  padding: 20px;
+}
+
+.menuItem:hover {
+  color: #89A7AC;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+
+
+body {
+    background-color: white;
+    font-family:"Proxima Nova Alt", Sans-serif;
+}
+footer {
+  background-color: #05454E;
+  font-family:"Proxima Nova Alt", Sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.footertekst {
+  color: white;
+  line-height: 1,4;
+}
+
+.icons {
+letter-spacing: 1px;
+margin-left: 39px;
+}
+
+.lærmere {
+  text-decoration: underline;
+}
+.footer2 {
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 100p;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+
+.footertekst {
+  color: white;
+  line-height: normal;
+  text-align: left;
+}
+
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+
+
+.lærmere {
+  text-decoration: underline;
+}
+.footer2{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+
+
+
+.overskrift-forside {
+  padding-top: 180px;
+  text-align: center;
+
+}
+
+/* 3 knapper på forsiden */
+.container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-auto-rows: minmax(50px,auto);
+  grid-gap:20px;
+  grid-template-areas: "header header"
+  "fundet registrer";
+  justify-content: center;
+  align-content: center;
+  height: 50vh;
+
+}
+
+.knap1{
+  grid-area: header;
+  width: 420px;
+  height: 100px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 25px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.knap2 {
+  grid-area: fundet;
+  width: 200px;
+  height: 60px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.knap3{
+  grid-area: registrer;
+  width: 200px;
+  height: 60px;
+  border: none;
+  color: #05454E;
+  background-color: #F6E36D;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #05454E;
+  transition: ease-out 0.2s;
+  font-size: 1rem;
+  outline: none;
+}
+
+
+
+.knap2:hover, .knap3:hover {
+  box-shadow: inset 200px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+}
+
+.knap1:hover {
+   box-shadow: inset 420px 0 0 0 #05454E;
+  cursor: pointer;
+  color: #F6E36D;
+}
+
+
+body{
+    font-family: Proxima Nova Alt;
+    color:  #05454E;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+a {
+  color: white;
+
+}
+
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background:#05454E;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+}
+
+
+.faq-heading{
+    padding: 20px 60px;
+
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #05454E;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+
+}
+.botmenu {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #05454E;
+  color: white;
+  text-align: left;
+}
+.liste{
+  text-align: left;
+  padding-top: 5px;
+}
+
+.botmenutekst{
+  text-align: center;
+}
+
+.footer{
+  background-color: #2E2E2E;
+  padding: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 10px;
+  color: white;
+}
+.icons {
+  letter-spacing: 1px;
+margin-left: 39px;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #05454E; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color:  #F6E36D; /* Add a dark-grey background on hover */
+}
+
+
+/* Regristrer genstand css */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: white;
+}
+/* <<<<<<< HEAD
+
+
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
+@media only screen and (max-width: 600px) {
+  .wapper {
+======= */
+
+/* @media only screen and (max-width: 600px) {
+  .wapper {
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+>>>>>>> 4cb67710e30d527aa678287bf3452030222e7b7c
+
+>>>>>>> 837a47234183379e7859893895a8fa9ca53690a9
+
+  }
+}
+<<<<<<< HEAD
+
+  *{
+
+
+>>>>>>> 3e078a62d9f47fabcddbb849cf354eabc40225fb
+=======
+>>>>>>> parent of d95b1b4 (double fuck)
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #00000010;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  color: #05454E;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn button[type="registrer"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #05454E;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
+/* .searchbar {
+  margin-top: 70px;
+} */ */
+
+.search-wrapper {
+  display:flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+input {
+  font-size: 1rem;
+  margin-top: 10px;
+  position:static;
+  border-color: #05454E;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+/* .user-cards {
+  display: grid;
+  grid-template-columns: repeat(autofill, minmax(150px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+} */
+
+/* .card {
+  border: 1px solid black;
+  background-color: white;
+  padding: .5rem;
+}
+
+.card > .header {
+  margin-bottom: .25rem;
+}
+
+.card > .body {
+  font-size: .8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+} */
+
+/* Steph kode*/
+#timedate {
+  font: small-caps 20px/100% Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  color: var(--blå);
+  padding: 20px;
+  background-color: var(--blå);
+}
+
+#feed {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 8%;
+  margin-right: 8%;
+  column-gap: 3%;
+}
+.glemteFeed {
+  grid-area: allFeed;
+  box-sizing: border-box;
+  grid-gap: 5px;
+  box-shadow: 0px 5px 10px #a9a9a9;
+  background-color: white;
+  width: 270px;
+  height: 300px;
+  margin-bottom: 3%;
+  padding: 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 0.5fr 1.5fr 0.5fr 0.5fr;
+  grid-template-areas:
+  "objekt objekt"
+  "ikonFeed beskrivelseFeed"
+  ". lokationFeed"
+  ". reserverKnap";
+}
+.glemteFeed h3 {
+  grid-area: objekt;
+  z-index: 1;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+  background-color: var(--lilla);
+  color: white;
+  font-weight: 600;
+}
+.glemteFeed p {
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 5px;
+}
+.ikonFeed {
+  grid-area: ikonFeed;
+  height: 100px;
+  width: 100px;
+  height: 75px;
+  width: 75px;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  z-index: 1;
+}
+.beskrivelseFeed {
+  grid-area: beskrivelseFeed;
+  z-index: 1;
+  height: auto;
+  box-shadow: 0px 5px 5px #ececec;
+  border-radius: 5px;
+  padding: 10px;
+  width: 160px;
+}
+.lokationFeed {
+  grid-area: lokationFeed;
+  display: flex;
+  z-index: 1;
+  height: 20px;
+  align-items: center;
+  padding-left: 5px;
+}
+.glemtSted {
+  display: flex;
+  grid-area: lokationFeed;
+  filter: invert();
+  height: 15px;
+  padding-left: 5px;
+}
+.reserverKnap {
+  display: inline-block;
+  cursor: pointer;
+  grid-area: reserverKnap;
+  background-color: #05455E;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+h1{
+  color: #05454E;
+  font: "Proxima Nova Alt", Sans-serif;
+  font-style: italic;
+}
+
+.kontakt{
+  display: grid;
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color: #05454E;
+  border-color: black;
+  box-shadow: 0 14px 28px #808080;
+  width: 70%;
+  height: 200px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+}
+
+.ikonadresse {
+  grid-area: a;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.adresse{
+  grid-area: a;
+  margin-left: 65px;
+  margin-top: 25px;
+  color: #ffffff;
+}
+
+.ikonklokke{
+  grid-area: b;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.klokke{
+  grid-area: b;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.ikontelefon{
+  grid-area: c;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.telefon{
+  grid-area: c;
+  margin-left: 70px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.skolen{
+  width: 70%;
+  height: 200px;
+  box-shadow: 0 14px 28px #808080;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.fundet{
+  margin-left: 30px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+  color: #05454E;
+  font-size: 35px;
+  font-style: italic;
+  font: "Proxima Nova Alt", Sans-serif;
+
+}
+
+.fundettekst{
+  grid-area: b;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-top: 30px;
+}
+
+.liste{
+  grid-area: b;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-top: 10px;
+}
+.tak{
+  grid-area: c;
+  color: #05454E;
+  font-size: 35px;
+  font-style: italic;
+  font: "Proxima Nova Alt", Sans-serif;
+
+  margin-top: 10px;
+}
+
+.kontakt{
+  margin-left: 37px;
+  margin-top: 15px;
+}
+
+.hvidbox{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "a"
+  "b"
+  "c";
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: white;
+  border-color: none;
+  box-shadow: 0 14px 28px #808080;
+  margin-left: 70px;
+}
+
+
+.kontakttak{
+  grid-area: c;
+  border-radius: 20px;
+  background-color: #05454E;
+  border-color: black;
+  box-shadow: 0 14px 28px #808080;
+  width: 250px;
+  height: 250px;
+  margin-left: 35px;
+  font-size: 10px;
+
+}
+.takikonadresse {
+  grid-area: c;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.takadresse{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.takkonklokke{
+  grid-area: c;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.takklokke{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.takikontelefon{
+  grid-area: c;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.taktelefon{
+  grid-area: c;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.bekræft{
+  grid-area: a;
+  color: #05454E;
+  margin-left: 60px;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 70px;
+}
+
+.knap{
+  grid-area: b;
+  background-color: #05454E;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+
+@media (max-width: 768px){
+  .hamburger{
+    display: block;
+  }
+
+    .menuItem {
+    display: block;
+    padding: 0 1.9rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    right: 1rem;
+    background: var(--grå-ish);
+    cursor: pointer;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.7s ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: var(--blå);
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+
+  .menu li a {
+    color: var(--hvid);
+  }
+
+  .showMenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(0);
+  }
+
+  .overskrift-forside h1 {
+    font-size: 1.9rem;
+  }
+
+  .overskrift-forside p {
+    font-size: 0.9rem;
+  }
+
+
+  .container {
+    display: grid;
+    grid-template-columns: 140px auto;
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap:15px;
+  }
+
+  .knap1{
+    grid-area: header;
+    width: 290px;
+    height: 80px;
+    font-size: 1.8rem;
+    outline: none;
+  }
+
+  .knap2 {
+    grid-area: fundet;
+    width: 135px;
+    height: 55px;
+    font-size: 0.8rem;
+  }
+
+  .knap3{
+    grid-area: registrer;
+    width: 135px;
+    height: 55px;
+    font-size: 0.8rem;
+  }
+
+
+
+  .knap2:hover, .knap3:hover {
+    box-shadow: inset 135px 0 0 0 #05454E;
+    cursor: pointer;
+    color: #F6E36D;
+  }
+
+  .knap1:hover {
+     box-shadow: inset 285px 0 0 0 #05454E;
+    cursor: pointer;
+    color: #F6E36D;
+  }
+  .header {
+    padding: 5px;
+    text-align: center;
+    background:#05454E;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+  }
+  .faq-heading{
+      padding: 20px 60px;
+      font-size: 12px;
+  }
+  .faq-page {
+      /* background-color: #eee; */
+      color: #05454E;
+      cursor: pointer;
+      padding: 30px 20px;
+      width: 60%;
+      border: none;
+      outline: none;
+      margin: auto;
+      font-size: 12px;
+  }
+  .faq-page:after {
+      content: '\02795';
+      /* Unicode character for "plus" sign (+) */
+      font-size: 12px;
+      float: right;
+      margin-right: -24px;
+  }
+  .faq-body {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+      font-size: 12px;
+  }
+  .liste{
+    text-align: left;
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  .botmenutekst{
+    text-align: center;
+    font-size: 12px;
+  }
+
+}
+
+
+.ikonerStyle {
+  background-color: grey;
+  width: 50px;
+  height: 150px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.ikonerStyle i {
+  margin: 10px;
+}
