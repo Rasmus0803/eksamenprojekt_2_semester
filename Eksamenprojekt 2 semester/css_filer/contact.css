@@ -93,7 +93,7 @@ img{
 }
 
 .form {
-  display: grid;
+  grid-area: menu;
   grid-column: 2/2;
   grid-row: 1/2;
   margin-top: 50px;
@@ -103,6 +103,7 @@ img{
   color: #FCFAF0;
 }
 .undertekst{
+  grid-area: main;
   grid-column: 2/2;
   grid-row: 1/2;
 }
