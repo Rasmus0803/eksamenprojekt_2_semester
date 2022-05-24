@@ -180,6 +180,7 @@ button {
 
     color: var(--egghvid);
     font-size: auto;
+    margin-top: 11px;
 }
 .sometext{
   color: var(--egghvid);
@@ -188,4 +189,5 @@ button {
 }
 .picons{
   color: var(--egghvid);
+  margin-top: 140px;
 }
