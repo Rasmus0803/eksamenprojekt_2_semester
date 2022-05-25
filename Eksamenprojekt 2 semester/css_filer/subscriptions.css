@@ -315,10 +315,12 @@ margin-bottom: 20px;
 }
 .menu li a{
 padding: 0px;
+
 }
 
 .overskriftmysubscribtions{
   transform: translateX(-28px);
+  width: 275px;
 }
 
 
