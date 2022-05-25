@@ -77,6 +77,14 @@ img{
   color: #89A7AC;
 }
 
+.overskriftabout{
+  text-align: left;
+  margin-left: 7%;
+  font-size: 35px;
+  color:var(--egghvid);
+  font-weight: bold;
+  }
+
 /* header og menu slut*/
 
 /* rollerslider start*/
