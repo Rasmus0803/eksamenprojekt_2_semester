@@ -203,7 +203,7 @@ button {
     color:var(--egghvid);
     font-weight: bold;
   }
-  .højrenede, .slogan, .slogan2{
+  .højrenede, .slogan, .slogan2, .navbar{
     display: none;
   }
 }
