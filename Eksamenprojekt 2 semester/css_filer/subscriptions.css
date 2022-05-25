@@ -300,14 +300,28 @@ img{
 @media (max-width: 868px) {
 
 
+.navbar{
+      flex-direction: column;
+      width: 100%;
+  }
+.menu{
+width: 100px;
+height: 100px;
+transform: translate(250px, -100px);
+}
+.menu li{
+float: left;
+margin-bottom: 20px;
+}
+.menu li a{
+padding: 0px;
+}
+
+.overskriftmysubscribtions{
+  transform: translateX(-28px);
+}
 
 
 
 
-
-
-
-
-
-  
 }
