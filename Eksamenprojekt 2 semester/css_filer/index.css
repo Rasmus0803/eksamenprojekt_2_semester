@@ -196,6 +196,13 @@ button {
 
 
 @media (max-width: 868px) {
+
+
+  body{
+    height: 1100px;
+    width: 100px;
+  }
+
   .welcometext{
     text-align: left;
     margin-left: 12%;
@@ -203,7 +210,64 @@ button {
     color:var(--egghvid);
     font-weight: bold;
   }
-  .højrenede, .slogan, .slogan2, .navbar{
+   .slogan, .slogan2{
     display: none;
+  }
+  .pcontainer{
+    transform: translateY(200px);
+  }
+  .navbar{
+    flex-direction: column;
+    width: 100%;
+
+
+  }
+  .menu{
+    width: 100px;
+    height: 100px;
+    transform: translate(250px, -100px);
+
+  }
+  .menu li{
+    float: left;
+    margin-bottom: 20px;
+  }
+  .menu li a{
+    padding: 0px;
+  }
+  .welcometext{
+    margin-left: 15px;
+  }
+  .venstreop{
+    margin-left: 15px;
+  }
+  .venstrenede{
+    margin-left: 17%;
+    transform: translateY(-300px);
+  }
+  .introtext{
+    width: 300px;
+  }
+  .picons{
+    margin-left: 15%;
+    margin-top: 50px;
+  }
+  .sometext{
+    width: 120%;
+  }
+  .højrenede{
+    transform: translate(-320px, 440px);
+  }
+  .socials{
+    margin-top: 20px;
+  }
+  .pbtn{
+    transform: translate(-75px, 0);
+  }
+  .remember{
+    transform: translate(10px, 10px);
+  }
+  .højreop{
+    transform: translateX(-150px);
   }
 }

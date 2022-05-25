@@ -6,6 +6,8 @@
     <title>KeyControl</title>
     <link rel="stylesheet" href="../css_filer/index.css">
     <script src="peters.js" defer></script>
+    <!-- Boxicons CDN Link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css">
 </head>
 <body>
 
@@ -14,6 +16,7 @@
       <div class="img">
         <img src="../Mediefiler/png/logock.png" class="logo">
       </div>
+
         <ul class="menu">
           <li><a class="menuItem" href="contact.html" >CONTACT</a></li>
           <li><a class="menuItem" href="setting.html" >SETTINGS</a></li>
@@ -51,9 +54,11 @@
   <h2 class="introtext">Log in og sign up to continue</h2>
 <div class="picons">
 <div class="pyoutube">
-  <p class="sometext"> Enter via social networks or login via mail</p>
+<p class="sometext"> Enter via social networks or login via mail</p>
+<div class="socials">
 <a href="https://www.youtube.com/playlist?list=PLFrCq2bsIFKYahU3MzmVMGWyfZnu-gYhm"> <img src="../Mediefiler/png/youtube.png" alt="youtubelogo"></a>
 <a href="https://www.instagram.com/keycontrol__/"> <img src="../Mediefiler/png/instagram.png" alt="instagramlogo"></a>
+</div>
 </div>
 </div>
 </div>
@@ -65,15 +70,16 @@
       <input type="text" placeholder="Enter Email" name="email" required>
       <label for="psw"><b></b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-      <label>
-        <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
+      <div class="remember">
+        <label>
+          <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+      </div>
+
       <div class="pbtn">
         <button type="submit" class="loginbtn">Login</button>
       </div>
-      <label>
-        <input type="checkbox" name="remember" style="margin-bottom:15px"> Agree policy
-      </label>
+
     </div>
   </form>
 </div>
