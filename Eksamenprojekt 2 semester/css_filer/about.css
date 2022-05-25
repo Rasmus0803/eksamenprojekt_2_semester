@@ -278,3 +278,41 @@ flex-direction: column;
   font-weight: 400;
   margin-bottom: 20px;
 }
+@media (max-width: 868px) {
+
+  .navbar{
+    flex-direction: column;
+    width: 100%;
+
+
+  }
+  .menu{
+    width: 100px;
+    height: 100px;
+    transform: translate(250px, -100px);
+
+  }
+  .menu li{
+    float: left;
+    margin-bottom: 20px;
+  }
+  .menu li a{
+    padding: 0px;
+  }
+  .faq-heading{
+    transform: translateX(-150px);
+  }
+ .center{
+   margin-left: 10%;
+ }
+
+ .video{
+   width: 150px;
+   height: auto;
+ }
+
+ .infotext{
+   margin: 50px 10% 0 10%
+ }
+
+  }
